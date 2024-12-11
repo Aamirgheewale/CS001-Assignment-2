@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment-2</title>
+    <link rel="website icon" type="png" href="sgbit-logo.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar-container">
+            <button class="logo" onclick="resetForm()">
+                <img    height="150px" width="200px"
+                src="./LearniNova.png"
+            />
+            </button>
+        </div>
+        <div class="nav-items">
+            <button class="logo" id="nav-item" onclick="resetForm()" style="height: 150px; width: 100px;"> HOME
+                
+            </button>
+            <button class="logo" id="nav-item" onclick="resetForm()" style="height: 150px; width: 150px;"> ABOUT
+                
+            </button>
+            <button class="logo" id="nav-item" onclick="resetForm()" style="height: 150px; width: 150px;"> ACHIVEMENT
+                
+            </button>
+            <button class="logo" id="nav-item" onclick="resetForm()" style="height: 150px; width: 200px;"> CONTACT
+                
+            </button>
+        </div>
+    </nav>
+    <section class="hero">
+        <h1>LEARNI NOVA</h1>
+        <p>Your gateway to knowledge and innovation.</p>
+    </section>
+    <section class="fill">
+        <h2>Fill the application to book demo class !!!</h2>
+    </section>
+    
+    <div class="two-parts">
+        <form id="" action="submit.html" method="" class="form-container">
+            <h2>Application Form</h2>
+            
+            <div class="form-group">
+                <input type="text" name="first_name" required placeholder="First Name">
+            </div>
+            <div class="form-group">
+                <input type="text" name="middle_name" required placeholder="Middle Name">
+            </div>
+            <div class="form-group">
+                <input type="text" name="last_name" required placeholder="Last Name">
+            </div>
+            <div class="form-group">
+                <input type="text" name="father_name" required placeholder="Father's Name">
+            </div>
+            <div class="form-group">
+                <input type="text" name="mobile_no" required placeholder="Mobile Number">
+            </div>
+            <div class="form-group">
+                <input type="email" name="email_id" required placeholder="Email Address">
+            </div>
+            <div class="form-group">
+                <textarea name="temporary_address" required placeholder="Temporary Address"></textarea>
+            </div>
+            <div class="form-group">
+                <textarea name="permanent_address" required placeholder="Permanent Address"></textarea>
+            </div>
+            <div class="form-row">
+                <div class="form-group">
+                    <input type="text" name="school_name" required placeholder="school name">
+                </div>
+                <div class="form-group">
+                    <input type="text" name="puc_college_name" required placeholder="puc college name">
+                </div>
+                <div class="form-group">
+                    <input type="text" name="degree_college_name" required placeholder="degree college name">
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="form-group">
+                    <input type="text" name="master_college_name" required placeholder="master college name">
+                </div>
+                <div class="form-group">
+                    <input type="text" name="current_status" required placeholder="current status">
+                </div>            
+            </div>
+            <div class="form-row">
+                <div class="form-group">
+                    <input type="text" name="country" required placeholder="Country">
+                </div>
+                <div class="form-group">
+                    <input type="text" name="state" required placeholder="State">
+                </div>
+                <div class="form-group">
+                    <input type="text" name="city" required placeholder="City">
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="form-group">
+                    <input type="text" name="pincode" required placeholder="Pincode">
+                </div>
+                <div class="form-group">
+                    <input type="text" name="occupation" required placeholder="Occupation">
+                </div>
+            </div>
+            <div class="form-group">
+                <textarea name="self_description" required placeholder="Tell us about yourself"></textarea>
+            </div>
+            <div class="button-group">
+                <a href="submit.html">
+                    <button class="btn btn-submit">Submit</button>
+                </a>
+                    <button type="reset" class="btn btn-reset">Reset</button>
+            </div>
+        </form>
+        <section style="margin: 0; padding: 0;">
+            <iframe allowtransparency="true" style="width: 50vw;height:50vh;background-color: transparent; margin: 0; padding: 0;" src="https://app.endlesstools.io/embed/e3490170-190e-4f17-9f03-188fffbd8465" title="Endless Tools Editor" frameborder="0" allow="clipboard-write; encrypted-media; gyroscope; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <p style="color: #fff; text-align: center; font-size: 24px; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; margin: 0; padding: 0;">learn how to make 3D elements with Learni Nova</p>
+        </section>
+    </div>    
+    
+    <div id="successModal" class="modal hidden">
+        <div class="modal-content">
+            <p>Your application has been submitted successfully!</p>
+       
+            <button onclick="closeModal()">OK</button>
+        </div>
+    </div>
+    <div>
+        <footer class="fotor" style="background-color: white; padding: 20px; text-align: center;">Web Technology Lab Assignment-2 made by  @ USN 2BU22CS001 </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
